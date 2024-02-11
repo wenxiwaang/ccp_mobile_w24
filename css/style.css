@@ -13,6 +13,30 @@ body {
     }
 }
 
+.header {
+    margin: 25px;
+    padding: 5px;
+    text-align: center;
+    background: #dec3cb;
+    color: black;
+    font-size: 30px;
+}
+
+h2 {
+    margin: 25px 25px 25px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+h3 {
+    margin: 10px 10px 10px 0px;
+    font-size: 16px;
+    color: brown;
+    font-weight: bold;
+}
+
+
 ul {
     list-style-type: none;
     border: px solid;
@@ -40,11 +64,12 @@ nav li:hover {
 }
 
 img {
+    margin: 10px 10px 10px 0px;
     border: 5px solid #af9483;
 }
 
 video {
-    border: 5px solid #af9483;
+     border: 5px solid #af9483;
 }
 
 .skiptomain{
@@ -69,7 +94,7 @@ hr.dashed {
 }
 
 .grid-container {
-    display: gird;
+    display: grid;
 }
 
 .pet-photos {
